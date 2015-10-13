@@ -1,0 +1,76 @@
+/* DEA additions for horizontal list menus in footer */
+.wrapper.secondary ul {
+    list-style-type: none;
+    font-size: .8em;
+}
+.wrapper.secondary li {
+    display: inline;
+    margin-right:30px;
+    color: #666;
+}
+
+div#topBar {
+  text-align:right;
+  padding-right: 30px;
+}
+div#topBar ul,
+div#footer ul {
+  list-style-type: none;
+  font-size: .8em;
+}
+div#topBar ul li {
+  display: inline;
+  margin-left:15px;
+}
+#logo {
+  margin-top:129px;
+  margin-bottom:30px;
+}
+input.subButton,
+button#signinButton {
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+button#signinButton {
+    color: #fff;
+    background-image: -webkit-linear-gradient(top,#4788f5,#4788f5);
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+a {
+    text-decoration:none;
+}
+img#shield {
+    position: relative;
+    top: 1em;
+    margin-right: 8px;
+}
+ul#leftFoot {
+    float:left;
+    width:45%;
+    text-align:left;
+    /* position:relative; */
+    padding: 15px 0 0 25px;
+}
+ul#rightFoot {
+    float:right;
+    width:45%;
+    text-align:right;
+    /* position:relative; */
+    padding: 15px 5px 0 0;
+}

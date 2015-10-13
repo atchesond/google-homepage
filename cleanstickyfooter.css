@@ -1,0 +1,32 @@
+/* Variation of http://cleanstickyfooter.herokuapp.com/css/cleanstickyfooter.css */
+
+* {
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    -webkit-user-select: none;
+    height: 100%;
+}
+
+.wrapper,
+.wrapper .container {
+    width: 100%;
+}
+
+.wrapper.primary {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0px 0px -40px 0px;
+    text-align: center;
+}
+
+.wrapper.primary .container {
+    padding: 0px 0px 40px 0px;
+}
+
+.wrapper.secondary {
+    height: 40px;
+    background: #f2f2f2;
+}
